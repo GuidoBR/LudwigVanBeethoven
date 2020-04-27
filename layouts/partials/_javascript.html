@@ -1,15 +1,19 @@
 <!-- JS -->
 <script src="js/jquery-2.1.4.min.js"></script>
 
+<!--
 <script src="js/mfn.menu.js"></script>
 <script src="js/jquery.plugins.js"></script>
 <script src="js/jquery.jplayer.min.js"></script>
 <script src="js/animations.js"></script>
 <script src="js/translate3d.js"></script>
 <script src="js/scripts.js"></script>
+-->
+
 
 <script src="js/jquery.themepunch.tools.min.js"></script>
 <script src="js/jquery.themepunch.revolution.min.js"></script>
+
 <script src="js/revolution.extension.video.min.js"></script>
 <script src="js/revolution.extension.slideanims.min.js"></script>
 <script src="js/revolution.extension.actions.min.js"></script>
@@ -18,6 +22,8 @@
 <script src="js/revolution.extension.navigation.min.js"></script>
 <script src="js/revolution.extension.migration.min.js"></script>
 <script src="js/revolution.extension.parallax.min.js"></script>
+
+
 
 <script>
     var tpj = jQuery;
@@ -57,26 +63,6 @@
                     disableFocusListener: false,
                 }
             });
-        }
-    });
-</script>
-
-<script id="mfn-dnmc-retina-js">
-    jQuery(window).load(function() {
-        var retina = window.devicePixelRatio > 1 ? true : false;
-        if (retina) {
-            var retinaEl = jQuery("#logo img.logo-main");
-            var retinaLogoW = retinaEl.width();
-            var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "img/retina-music.png").width(retinaLogoW).height(retinaLogoH);
-            var stickyEl = jQuery("#logo img.logo-sticky");
-            var stickyLogoW = stickyEl.width();
-            var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "img/retina-music.png").width(stickyLogoW).height(stickyLogoH);
-            var mobileEl = jQuery("#logo img.logo-mobile");
-            var mobileLogoW = mobileEl.width();
-            var mobileLogoH = mobileEl.height();
-            mobileEl.attr("src", "img/retina-music.png").width(mobileLogoW).height(mobileLogoH);
         }
     });
 </script>
